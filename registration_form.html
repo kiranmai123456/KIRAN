@@ -1,28 +1,56 @@
 <html>
 <body>
 <form>
- NAME : <input type="text" name="name"/ ><br>
- AGE : <input type="text" name="age"/><br>
-DOB : <input type="date" ><br>
-MOBILE NO : <input type="text" name="mobile number"/><br>
-GENDER : <input type="radio" name="gender" value="male">Male 
-                     <input type="radio" name="gender" value="female">Female
-                      <input type="radio" name="gender" value="prefer not to say">Prefer not to say <br>
-BRANCH : <select name="dropdown">
-                     <option value="select"> CSE </option value>
+<table height="150" width="500">
+<tr>
+ <td>NAME :</td> <td><input type="text" name="name"/ ></td><br>
+</tr>
+<tr>
+<td> AGE :</td> <td> <input type="text" name="age"/></td><br>
+</tr>
+<tr>
+<td>DOB : </td><td><input type="date" ></td><br>
+</tr>
+<tr>
+<td>MOBILE NO :</td><td> <input type="text" name="mobile number"/></td><br>
+</tr>
+<tr>
+<td>GENDER : </td><td><input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                      <input type="radio" name="gender" value="prefer not to say">Prefer not to say </td><br>
+</tr>
+<tr>
+<td>BRANCH :</td> <td><select name="dropdown">
+                    <option value="select"> CSE </option value>
                      <option value="select"> ECE </option value>
                        <option value="select"> EEE </option value>
                       <option value="select"> CE </option value>
-                       <option value="select"> MECH </option value> <br>
-E-MAIL : <input type="text" name="email"/ > <br>
-ADDRESS : <br>
-                       <textarea rows="5" cols="50"> Address 
-                       </textarea> <br>
-PASSWORD : <input type="password" name="pwt"> <br>
- CONFIRM PASSWORD : <input type="text" name="pwt"> <br>
-UPLOAD IMAGE : <input type="file" name="file upload" accept="image/*"/><br>
-<input type="checkbox" name="remember me" value="on"> REMEMBER ME<br>
-<button type="button" onclick="alert('submitted!')">submit</button>
+                       <option value="select"> MECH </option value></td> <br>
+</tr>
+<tr>
+<td>E-MAIL :</td> <td><input type="text" name="email"/ ></td> <br>
+</tr>
+<tr>
+<td>ADDRESS : </td><br>
+                      <td> <textarea rows="5" cols="50"> Address 
+                       </textarea> </td><br>
+</tr>
+<tr>
+<td>PASSWORD :</td><td> <input type="password" name="pwt"></td> <br>
+</tr>
+<tr>
+<td>CONFIRM PASSWORD :</td> <td><input type="text" name="pwt"> </td><br>
+</tr>
+<tr>
+<td>UPLOAD IMAGE : </td><td><input type="file" name="file upload" accept="image/*"/></td><br>
+</tr>
+<tr>
+<td></td><td><input type="checkbox" name="remember me" value="on">REMEMBER ME</td><br>
+</tr>
+<tr>
+<td></td><td><button type="button" onclick="alert('submitted!')">submit</button></td>
+</tr>
+</table>
 </form>
 </body>
 </html>
