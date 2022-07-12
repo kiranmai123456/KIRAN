@@ -40,3 +40,8 @@ margin:0px;
 	background-color: ghostwhite;
 	display:inline-block;
 }
+@media(max-width:786px)
+{
+.parent{
+flex-wrap:wrap;
+}
